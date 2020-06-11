@@ -93,6 +93,9 @@ submitOnEnter|bool|No|`false`|Set it to `true` if you want to submit the form wh
 cancelOnEscape|bool|No|`false`|Set it to `true` if you want to cancel the form when `Escape` is pressed. See [here](https://alioguzhan.github.io/react-editext/#save-on-enter)
 cancelOnUnfocus|bool|No|`false`|Set it to `true` if you want to cancel the form when clicked outside of the input. See [here](https://alioguzhan.github.io/react-editext/#cancel-on-blur)
 submitOnUnfocus|bool|No|`false`|Set it to `true` if you want to submit the form when clicked outside of the input. See [here](https://alioguzhan.github.io/react-editext/#submit-on-blur)
+startEditingOnFocus|bool|No|`false`|Activates the edit mode when the view container is in focus. See [here](https://alioguzhan.github.io/react-editext/#edit-on-focus)
+startEditingOnEnter|bool|No|`false`|Activates the edit mode when the `Enter` key is pressed. See [here](https://alioguzhan.github.io/react-editext/#edit-on-enter)
+tabIndex|number|No||An helper shortcut in case you want to pass the same tabIndex to both `viewProps` and `inputProps`.
 
 ## Styling with `styled-components`
 
@@ -171,6 +174,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/zig"><img src="https://avatars3.githubusercontent.com/u/85303?v=4" width="100px;" alt=""/><br /><sub><b>zig</b></sub></a><br /><a href="https://github.com/alioguzhan/react-editext/issues?q=author%3Azig" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/isaiahtaylor"><img src="https://avatars1.githubusercontent.com/u/57509275?v=4" width="100px;" alt=""/><br /><sub><b>Isaiah Taylor</b></sub></a><br /><a href="#ideas-isaiahtaylor" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/anz000"><img src="https://avatars2.githubusercontent.com/u/12726957?v=4" width="100px;" alt=""/><br /><sub><b>anz000</b></sub></a><br /><a href="#ideas-anz000" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/amirmishani"><img src="https://avatars0.githubusercontent.com/u/11446580?v=4" width="100px;" alt=""/><br /><sub><b>Amir M</b></sub></a><br /><a href="#ideas-amirmishani" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/harshilparmar"><img src="https://avatars3.githubusercontent.com/u/45915468?v=4" width="100px;" alt=""/><br /><sub><b>Harshil Parmar</b></sub></a><br /><a href="https://github.com/alioguzhan/react-editext/commits?author=harshilparmar" title="Documentation">📖</a></td>
   </tr>
 </table>
 
